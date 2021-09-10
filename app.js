@@ -13,3 +13,11 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
+
+// heroku login
+// heroku create
+// git init
+// git add .
+// git commit -m ""
+//  heroku git:remote -a heroku git:clone -a guarded-coast-52199
+// git push heroku master
