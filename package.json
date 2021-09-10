@@ -1,0 +1,22 @@
+{
+  "name": "browser_detecter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "detect-browser": "^5.2.0",
+    "device-detector-js": "^2.2.10",
+    "express": "^4.17.1",
+    "ua-parser-js": "^0.7.28"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
